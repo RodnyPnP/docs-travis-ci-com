@@ -138,7 +138,7 @@ To use the IBM Advance Toolchain v14 compilers under `amd64` architecture in Foc
 ### Docker
 
 * Docker `19.03.8` is installed.
-* docker-compose `1.23.1` is also available.
+* docker-compose `1.25.1` is also available.
 
 ## Ruby support
 
@@ -185,6 +185,12 @@ is `openjdk11`.
 | maven   | `3.6.3` |
 | groovy  | `2.4.5` |
 {: style="width: 30%" }
+
+## Perl support
+
+* Default version on Focal is `5.30.0`
+* Supported versions `5.22`, `5.24`, `5.26`, `5.28`, `5.30` and `5.32` can be installed by using the `perl:`-key.
+* `TAP::Harness` v3.42 and `cpanm` (App::cpanminus) version 1.7044 are also pre-installed.
 
 ## PHP support
 
